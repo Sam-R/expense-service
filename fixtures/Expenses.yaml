@@ -1,0 +1,4 @@
+App\Entity\Expense:
+    expense_{1..100}:
+        amount: <numberBetween(1, 200)>
+        description: <text()>
